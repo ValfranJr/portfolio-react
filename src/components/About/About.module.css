@@ -1,0 +1,44 @@
+.about_me_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about_me_content img {
+  width: 320px;
+  height: 320px;
+  margin-right: 50px;
+}
+
+.about_me_content p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.section_container {
+  width: 100%;
+  background-color: #111;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.section_content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section_title {
+  width: fit-content;
+  font-weight: 600;
+  font-size: 2.625rem;
+  letter-spacing: 0.15rem;
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin: auto;
+}

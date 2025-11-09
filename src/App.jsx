@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header.jsx";
+import About from "./components/About/About.jsx";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         </h1>
         <p>Um desenvolvedor web, apaixonado por tecnologia e inovação.</p>
       </div>
+      <About />
     </>
   );
 }
