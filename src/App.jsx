@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import About from "./components/About/About.jsx";
+import Skills from "./components/Skills/Skills.jsx";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <p>Um desenvolvedor web, apaixonado por tecnologia e inovação.</p>
       </div>
       <About />
+      <Skills />
     </>
   );
 }
