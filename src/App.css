@@ -1,0 +1,31 @@
+.showcase_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/showcase-me.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  /* overlay */
+  background-color: rgb(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+
+.showcase_container h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.showcase_container p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #eee;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  letter-spacing: 0.15rem;
+  border-bottom: 1.5px solid #fff;
+}
