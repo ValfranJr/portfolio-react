@@ -1,0 +1,92 @@
+.projects_content {
+  margin-top: 118px;
+  width: 100%;
+}
+.projects_content .project_item:nth-child(even) {
+  justify-content: flex-end;
+  text-align: right;
+}
+.projects_content .project_item:nth-child(2) > .project_item_image,
+.projects_content .project_item:last-child > .project_item_image {
+  order: 2;
+}
+
+.projects_content .project_item:nth-child(2) > .project_text,
+.projects_content .project_item:last-child > .project_text {
+  order: 1;
+}
+
+.project_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.project_text {
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 600px;
+}
+
+.project_text h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.project_text p {
+  color: #fff;
+  opacity: 75%;
+  font-weight: 400;
+  line-height: 29px;
+}
+.project_item_image {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 15px;
+}
+
+.project_image_1 {
+  background-image: url("/public/image1.jpg");
+}
+
+.project_image_2 {
+  background-image: url("/public/image2.jpg");
+}
+
+.project_image_3 {
+  background-image: url("/public/image3.jpg");
+}
+
+.project_image_4 {
+  background-image: url("/public/image4.jpg");
+}
+/* Section  Utilities */
+.section_container {
+  width: 100%;
+  background-color: #111;
+  padding-top: 110px;
+}
+.section_content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section_title {
+  width: fit-content;
+  font-weight: 600;
+  font-size: 2.625rem;
+  letter-spacing: 0.15rem;
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin: auto;
+}
