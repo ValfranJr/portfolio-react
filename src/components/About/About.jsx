@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import FotoPerfil from "../../assets/perfil1.png";
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
           Sobre mim
         </h2>
         <div className={styles.about_me_content}>
-          <img src="/public/perfil1.png" alt="foto de perfil" />
+          <img src={FotoPerfil} alt="foto de perfil" />
           <p>
             Meu nome é Valfran Jr. e sou um desenvolvedor web em constante
             evolução. Minha trajetória começou movida pela curiosidade em

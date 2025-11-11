@@ -5,6 +5,7 @@
   margin-top: 108px;
   width: 100%;
 }
+
 .skill_item {
   margin-top: 50px;
   display: flex;
@@ -19,6 +20,7 @@
   max-width: 250px;
   max-height: 250px;
 }
+
 .skills_content .skill_item > h3 {
   color: #fff;
   font-size: 1.25rem;
