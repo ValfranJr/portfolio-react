@@ -15,12 +15,21 @@ export default function Projects() {
               }
             ></div>
             <div className={styles.project_text}>
-              <h3>Landing Page de Startup</h3>
+              <h3>
+                <a href="https://ecommerce-bewear-beta.vercel.app/">
+                  Ecommerce - BeWear
+                </a>
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                ea, excepturi expedita et laudantium sint quisquam cum saepe
-                tenetur illum.
+                O BeWear é um ecommerce voltado para clientes de roupas. Com
+                ela, os usuários podem encontrar produtos de alta qualidade e
+                preços acessíveis. O desenvolvimento foi realizado com a
+                abordagem mobile first, garantindo uma experiência otimizada em
+                dispositivos móveis e com Integração ao Stripe para pagamentos.
               </p>
+              <a href="https://github.com/ValfranJr/Ecommerce---BEWEAR">
+                Link para o projeto - Github
+              </a>
             </div>
           </div>
           <div className={styles.project_item}>
@@ -30,12 +39,17 @@ export default function Projects() {
               }
             ></div>
             <div className={styles.project_text}>
-              <h3>Página de Hotel</h3>
+              <h3>
+                <a href="https://roleta-parme.vercel.app/">Roleta Parme</a>
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                ea, excepturi expedita et laudantium sint quisquam cum saepe
-                tenetur illum.
+                A roleta checkout foi criada para ajudar os usuários a adquirir
+                leads de markteplace. Com ela, os donos de deliverys conseguem
+                adquirir leads validados disponibilizando cupons de desconto.
               </p>
+              <a href="https://github.com/ValfranJr/roleta-parme">
+                Link para o projeto - Github
+              </a>
             </div>
           </div>
           <div className={styles.project_item}>
@@ -45,12 +59,22 @@ export default function Projects() {
               }
             ></div>
             <div className={styles.project_text}>
-              <h3>Portfólio de Programador</h3>
+              <h3>
+                <a href="https://fsw-barber-six-phi.vercel.app/">
+                  FSW Barber - Agendamentos
+                </a>
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                ea, excepturi expedita et laudantium sint quisquam cum saepe
-                tenetur illum.
+                O FSW Barber é uma plataforma de agendamento voltada para
+                clientes de barbearias. Com ela, os usuários podem reservar
+                serviços, gerenciar seus horários e acessar o sistema com
+                praticidade através do login com Google. Todo o desenvolvimento
+                foi pensado com a abordagem mobile first, garantindo uma
+                experiência otimizada em dispositivos móveis.
               </p>
+              <a href="https://github.com/ValfranJr/FSW-BARBER">
+                Link para o projeto - Github
+              </a>
             </div>
           </div>
           <div className={styles.project_item}>
@@ -60,12 +84,20 @@ export default function Projects() {
               }
             ></div>
             <div className={styles.project_text}>
-              <h3>Previsão do Tempo</h3>
+              <h3>
+                <a href="https://github.com/ValfranJr/task-manager">
+                  Task Manager
+                </a>
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                ea, excepturi expedita et laudantium sint quisquam cum saepe
-                tenetur illum.
+                Eu precisava de uma forma simples e visualmente organizada para
+                administrar minhas tarefas diárias, divididas por períodos do
+                dia. Os aplicativos existentes eram complexos, cheios de
+                anúncios e distrações.
               </p>
+              <a href="https://github.com/ValfranJr/task-manager">
+                Link para o projeto - Github
+              </a>
             </div>
           </div>
         </div>
