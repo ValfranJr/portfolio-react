@@ -7,11 +7,15 @@
   box-shadow: 0px 4px 4px 0px #00000040;
   padding: 20px;
   top: 0;
+  z-index: 1000;
 }
 
 .navbar_container > ul {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .navbar_container ul li {
@@ -31,4 +35,32 @@
 .navbar_container ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar_container {
+    padding: 15px;
+  }
+
+  .navbar_container > ul {
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .navbar_container ul li {
+    font-size: 0.75rem;
+    margin-right: 15px;
+    letter-spacing: 0.05rem;
+  }
+
+  .navbar_container ul li:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar_container ul li {
+    font-size: 0.7rem;
+    margin-right: 10px;
+  }
 }

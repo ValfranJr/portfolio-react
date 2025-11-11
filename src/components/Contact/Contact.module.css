@@ -15,6 +15,7 @@
   outline: none;
   background-color: #202020;
   color: #fff;
+  width: 100%;
 }
 .contact_content textarea:focus,
 .contact_content input:focus {
@@ -28,6 +29,8 @@
   background-color: #202020;
   color: #fff;
   resize: none;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact_content button {
@@ -41,6 +44,8 @@
   font-weight: 600;
   font-size: 1.25rem;
   margin-bottom: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .contact_content button:hover:not(:disabled) {
@@ -100,6 +105,13 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 480px) {
+  .section_content {
+    padding: 0 15px;
+  }
 }
 .section_title {
   width: fit-content;
@@ -115,4 +127,46 @@
   padding-right: 8px;
   text-align: center;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .section_container {
+    padding-top: 80px;
+  }
+
+  .section_title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .contact_content {
+    margin-top: 60px;
+    gap: 20px;
+  }
+
+  .contact_content button {
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_title {
+    font-size: 1.5rem;
+  }
+
+  .contact_content {
+    gap: 15px;
+  }
+
+  .contact_content input,
+  .contact_content textarea {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .contact_content button {
+    font-size: 1rem;
+    padding: 12px;
+  }
 }

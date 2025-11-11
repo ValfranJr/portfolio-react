@@ -5,7 +5,7 @@ export default function Header() {
       <nav className={styles.navbar_container}>
         <ul>
           <li>
-            <a href="index.html">Início</a>
+            <a href="#home">Início</a>
           </li>
           <li>
             <a href="#about">Sobre</a>

@@ -20,12 +20,14 @@
   display: flex;
   align-items: center;
   margin-top: 40px;
+  gap: 30px;
 }
 
 .project_text {
   margin-left: 50px;
   margin-right: 50px;
   max-width: 600px;
+  flex: 1;
 }
 
 .project_text h3 {
@@ -70,6 +72,7 @@
   background-position: center;
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 15px;
+  flex-shrink: 0;
 }
 
 .project_image_1 {
@@ -97,6 +100,13 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 480px) {
+  .section_content {
+    padding: 0 15px;
+  }
 }
 .section_title {
   width: fit-content;
@@ -112,4 +122,93 @@
   padding-right: 8px;
   text-align: center;
   margin: auto;
+}
+
+@media (max-width: 968px) {
+  .project_item {
+    flex-direction: column;
+    text-align: center !important;
+  }
+
+  .projects_content .project_item:nth-child(even) {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projects_content .project_item:nth-child(2) > .project_item_image,
+  .projects_content .project_item:last-child > .project_item_image {
+    order: 1;
+  }
+
+  .projects_content .project_item:nth-child(2) > .project_text,
+  .projects_content .project_item:last-child > .project_text {
+    order: 2;
+  }
+
+  .project_text {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .project_item_image {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_container {
+    padding-top: 80px;
+  }
+
+  .section_title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .projects_content {
+    margin-top: 60px;
+  }
+
+  .project_item {
+    margin-top: 30px;
+  }
+
+  .project_text h3 {
+    font-size: 1.75rem;
+  }
+
+  .project_text p {
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+  }
+
+  .project_item_image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_title {
+    font-size: 1.5rem;
+  }
+
+  .project_text h3 {
+    font-size: 1.5rem;
+  }
+
+  .project_text p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .project_item_image {
+    height: 180px;
+  }
+
+  .project_text a {
+    font-size: 0.9rem;
+  }
 }

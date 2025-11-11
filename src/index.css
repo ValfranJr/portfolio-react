@@ -7,4 +7,9 @@
 }
 body {
   background-color: rgba(0, 0, 0, 0.308);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }

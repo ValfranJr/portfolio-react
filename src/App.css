@@ -11,11 +11,13 @@
   /* overlay */
   background-color: rgb(0, 0, 0, 0.6);
   background-blend-mode: overlay;
+  padding: 20px;
 }
 
 .showcase_container h1 {
   font-weight: 600;
   font-size: 4rem;
+  text-align: center;
 }
 
 .showcase_container p {
@@ -28,4 +30,34 @@
   padding-right: 8px;
   letter-spacing: 0.15rem;
   border-bottom: 1.5px solid #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .showcase_container {
+    padding: 20px 15px;
+  }
+
+  .showcase_container h1 {
+    font-size: 2.5rem;
+  }
+
+  .showcase_container p {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .showcase_container h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .showcase_container p {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

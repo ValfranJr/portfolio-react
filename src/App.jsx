@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="showcase_container">
+      <div className="showcase_container" id="home">
         <h1>
           Oi, eu sou o <br />
           Valfran Jr!
