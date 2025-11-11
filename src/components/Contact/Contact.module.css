@@ -43,10 +43,53 @@
   margin-bottom: 40px;
 }
 
-.contact_content button:hover {
+.contact_content button:hover:not(:disabled) {
   background-color: #202020;
   cursor: pointer;
 }
+
+.contact_content button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contact_content input:disabled,
+.contact_content textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status_message {
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.status_message.success {
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid #45a049;
+}
+
+.status_message.error {
+  background-color: #f44336;
+  color: #fff;
+  border: 1px solid #da190b;
+}
+
 /* Section  Utilities */
 .section_container {
   width: 100%;
