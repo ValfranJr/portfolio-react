@@ -7,7 +7,6 @@
   box-shadow: 0px 4px 4px 0px #00000040;
   padding: 20px;
   top: 0;
-  z-index: 1000;
 }
 
 .navbar_container > ul {
@@ -60,7 +59,7 @@
 
 @media (max-width: 480px) {
   .navbar_container ul li {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin-right: 10px;
   }
 }
