@@ -43,7 +43,7 @@ http://localhost:5173
 - `npm run preview` - Visualiza a build de produção localmente
 - `npm run lint` - Executa o linter para verificar o código
 
-## 🌐 Como realizar deploy ou acessar a versão online
+## 🌐 Como acessar a versão online
 
 ### Deploy feito na Vercel
 
